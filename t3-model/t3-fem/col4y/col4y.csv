@@ -1,0 +1,34 @@
+
+Analysis:col4y, Loadset:Prescribed Temperature
+max_beam_bending, 0
+max_beam_tensile, 0
+max_beam_torsion, 0
+max_beam_total, 0
+max_disp_mag, 1, 18.5355, -41.4645, -5
+max_disp_x, 0.273795, 7.5, -50, 2.5
+max_disp_y, 1, 11.0128, -48.017, -2.5
+max_disp_z, -0.0814154, 14.1913, -36.4834, -5
+max_prin_mag, -23005.1, 11.4645, -48.5355, 2.5
+max_rot_mag, 0, 45.7542, -7.68777, 5
+max_rot_x, 0, -1, 0, 0
+max_rot_y, 0, -1, 0, 0
+max_rot_z, 0, -1, 0, 0
+max_stress_prin, 7407.8, 0, -50, 5
+max_stress_vm, 14624.4, 11.4645, -48.5355, 2.5
+max_stress_xx, -21378.4, 11.4645, -48.5355, 2.5
+max_stress_xy, 5127.39, 10.0272, -44.4791, -5
+max_stress_xz, 2149.82, 11.4645, -48.5355, -5
+max_stress_yy, -9910, 18.5355, -41.4645, 0
+max_stress_yz, 2220.63, 11.4645, -48.5355, -5
+max_stress_zz, -9969.13, 11.4645, -48.5355, 2.5
+min_stress_prin, -23005.1, 11.4645, -48.5355, 2.5
+strain_energy, 366736
+F1, 154834
+F2, -612785
+F3, 283198
+F4x, -111287
+F4y, 733471
+F5x, -50569.9
+F5y, -87958.1
+F6x, 7022.26
+F6y, -32728.1

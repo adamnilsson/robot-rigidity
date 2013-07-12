@@ -1,0 +1,361 @@
+------------------------------------------------------------
+Creo Simulate Structure Version P-10-21:spg
+Log for Design Study "tilt1"
+Thu May 30, 2013   12:07:08
+------------------------------------------------------------
+
+Engine Command with the specified command line options:
+
+ C:\Program Files\PTC\Creo 2.0\Common Files\M040\mech\x86e_win64\bin\msengine.exe  tilt1  -i  .\..\..\..\adam\t3-model\tilt-fem  -w  .  -solram  512  -ascii  -sturm  default  -num_threads  ALL 
+
+Begin Creating Database for Design Study
+Thu May 30, 2013   12:07:08
+   Elapsed Time       (sec):       0.11
+   CPU Time           (sec):       0.08
+   Memory Usage        (kb):      34677
+   Work Dir Disk Usage (kb):          0
+
+   Step Elapsed Time  (sec):       0.01
+   Step CPU Time      (sec):       0.00
+
+Begin Integrated Mode Error Checking
+Thu May 30, 2013   12:07:08
+   Elapsed Time       (sec):       0.12
+   CPU Time           (sec):       0.08
+   Memory Usage        (kb):      34677
+   Work Dir Disk Usage (kb):          0
+Checking the model before creating elements...
+These checks take into account the fact that AutoGEM will
+automatically create elements in volumes with material
+properties, on surfaces with shell properties, and on curves
+with beam section properties.
+
+   Step Elapsed Time  (sec):       0.03
+   Step CPU Time      (sec):       0.02
+
+Begin Generating Elements
+Thu May 30, 2013   12:07:08
+   Elapsed Time       (sec):       0.15
+   CPU Time           (sec):       0.09
+   Memory Usage        (kb):      34677
+   Work Dir Disk Usage (kb):          0
+
+____________________________________________________________
+
+          AutoGEM Settings
+
+  Isolate Surface Features: 
+
+  [x] Reentrant Corners
+  [x] Point Loads
+  [x] Point Constraints
+  [x] Point Heat Loads
+  [x] Point Prescribed Temperatures
+  [x] Point Convection Conditions
+
+ ------------------------------------------
+
+  [x] Insert Points
+  [x] Create Links Where Needed
+  [x] Move or Delete Existing Points
+  [x] Modify or Delete Existing Elements
+  [ ] Detailed Fillet Modeling
+  [ ] Display AutoGEM Messages
+  [ ] Automatic Interrupt
+
+ ------------------------------------------
+
+  Shell Element Type:   Quad and Tri
+  Solid Element Type:   Brick, Wedge, Tetra
+
+  Allowable Angles (Degrees):
+    Edge    Min:   5.0  Max:  175.0
+    Face    Min:   5.0  Max:  175.0
+
+  Max Allowable Edge Turn (Degrees):  95.0
+
+  Max Allowable Aspect Ratio:  30.0
+
+____________________________________________________________
+
+Working on 1 volume(s) ...
+Pre-processing features for 15 surfaces ...
+Pre-processing boundary features ...
+Optimizing boundary point locations ...
+Detecting thin features on the volume ...
+Pre-processing volume features ...
+Searching for existing solid elements inside the volume ...
+Found 0 existing solid element(s) inside the volume.
+Creating solid elements ...
+Optimizing elements ...
+Adding 96 solid elements to model ...
+Displaying Elements ...
+
+____________________________________________________________
+
+          AutoGEM Summary
+
+  Entities Created:
+
+    Beam:         0       Edge:              210
+    Tri:          0       Face:              249
+    Quad:         0       Face-Face Link:    0
+    Tetra:       96       Edge-Face Link:    0
+    Wedge:        0
+    Brick:        0
+
+ ----------------------------------------------------
+
+  Criteria Satisfied:
+
+  Angles (Degrees):
+    Edge  Min:   7.6    Max:  149.1
+    Face  Min:   5.0    Max:  167.5
+
+  Max Aspect Ratio:  7.2
+
+  Elapsed Time:    0.0 min    CPU Time:   0.0 min
+
+____________________________________________________________
+
+
+   Step Elapsed Time  (sec):       0.17
+   Step CPU Time      (sec):       0.09
+
+Begin Integrated Mode Error Checking
+Thu May 30, 2013   12:07:08
+   Elapsed Time       (sec):       0.32
+   CPU Time           (sec):       0.19
+   Memory Usage        (kb):      72101
+   Work Dir Disk Usage (kb):          0
+Checking the model after creating elements...
+No errors were found in the model.
+   Step Elapsed Time  (sec):       0.05
+   Step CPU Time      (sec):       0.01
+
+Begin Engine Bookkeeping
+Thu May 30, 2013   12:07:08
+   Elapsed Time       (sec):       0.37
+   CPU Time           (sec):       0.20
+   Memory Usage        (kb):      72101
+   Work Dir Disk Usage (kb):          0
+
+   Step Elapsed Time  (sec):       0.03
+   Step CPU Time      (sec):       0.02
+
+Begin Analysis: "tilt1"
+Thu May 30, 2013   12:07:08
+   Elapsed Time       (sec):       0.39
+   CPU Time           (sec):       0.22
+   Memory Usage        (kb):      72101
+   Work Dir Disk Usage (kb):          0
+
+   Step Elapsed Time  (sec):       0.06
+   Step CPU Time      (sec):       0.05
+
+Begin Mass Calculation
+Thu May 30, 2013   12:07:08
+   Elapsed Time       (sec):       0.46
+   CPU Time           (sec):       0.27
+   Memory Usage        (kb):      72101
+   Work Dir Disk Usage (kb):          0
+
+   Step Elapsed Time  (sec):       0.08
+   Step CPU Time      (sec):       0.00
+
+Begin P-Loop Pass 1
+Thu May 30, 2013   12:07:08
+   Elapsed Time       (sec):       0.53
+   CPU Time           (sec):       0.27
+   Memory Usage        (kb):      72101
+   Work Dir Disk Usage (kb):          0
+
+   Step Elapsed Time  (sec):       0.11
+   Step CPU Time      (sec):       0.03
+
+Begin Element Calculations, Pass 1
+Thu May 30, 2013   12:07:08
+   Elapsed Time       (sec):       0.64
+   CPU Time           (sec):       0.30
+   Memory Usage        (kb):     568519
+   Work Dir Disk Usage (kb):         35
+
+   Step Elapsed Time  (sec):       0.03
+   Step CPU Time      (sec):       0.00
+
+Begin Global Matrix Assembly, Pass 1
+Thu May 30, 2013   12:07:08
+   Elapsed Time       (sec):       0.67
+   CPU Time           (sec):       0.30
+   Memory Usage        (kb):     571749
+   Work Dir Disk Usage (kb):       1059
+
+   Step Elapsed Time  (sec):       0.01
+   Step CPU Time      (sec):       0.00
+
+Begin Equation Solve, Pass 1
+Thu May 30, 2013   12:07:08
+   Elapsed Time       (sec):       0.68
+   CPU Time           (sec):       0.30
+   Memory Usage        (kb):     571749
+   Work Dir Disk Usage (kb):       1059
+
+   Step Elapsed Time  (sec):       0.03
+   Step CPU Time      (sec):       0.02
+
+Begin Load Calculations
+Thu May 30, 2013   12:07:08
+   Elapsed Time       (sec):       0.71
+   CPU Time           (sec):       0.31
+   Memory Usage        (kb):     571749
+   Work Dir Disk Usage (kb):       1059
+
+   Step Elapsed Time  (sec):       0.01
+   Step CPU Time      (sec):       0.00
+
+Begin Post-Processing Calculations, Pass 1
+Thu May 30, 2013   12:07:09
+   Elapsed Time       (sec):       0.72
+   CPU Time           (sec):       0.31
+   Memory Usage        (kb):     571749
+   Work Dir Disk Usage (kb):       1059
+
+   Step Elapsed Time  (sec):       0.03
+   Step CPU Time      (sec):       0.03
+
+Begin Convergence Check Pass 1
+Thu May 30, 2013   12:07:09
+   Elapsed Time       (sec):       0.76
+   CPU Time           (sec):       0.34
+   Memory Usage        (kb):     571749
+   Work Dir Disk Usage (kb):       1059
+
+   Step Elapsed Time  (sec):       0.03
+   Step CPU Time      (sec):       0.02
+
+Begin Strain Energy Calculations
+Thu May 30, 2013   12:07:09
+   Elapsed Time       (sec):       0.79
+   CPU Time           (sec):       0.36
+   Memory Usage        (kb):     571749
+   Work Dir Disk Usage (kb):       1059
+
+   Step Elapsed Time  (sec):       0.02
+   Step CPU Time      (sec):       0.02
+
+Begin P-Loop Pass 2
+Thu May 30, 2013   12:07:09
+   Elapsed Time       (sec):       0.81
+   CPU Time           (sec):       0.37
+   Memory Usage        (kb):     571749
+   Work Dir Disk Usage (kb):       1059
+
+   Step Elapsed Time  (sec):       0.13
+   Step CPU Time      (sec):       0.09
+
+Begin Element Calculations, Pass 2
+Thu May 30, 2013   12:07:09
+   Elapsed Time       (sec):       0.94
+   CPU Time           (sec):       0.47
+   Memory Usage        (kb):     574303
+   Work Dir Disk Usage (kb):       1078
+
+   Step Elapsed Time  (sec):       0.65
+   Step CPU Time      (sec):       0.64
+
+Begin Global Matrix Assembly, Pass 2
+Thu May 30, 2013   12:07:09
+   Elapsed Time       (sec):       1.59
+   CPU Time           (sec):       1.11
+   Memory Usage        (kb):     574328
+   Work Dir Disk Usage (kb):      18486
+
+   Step Elapsed Time  (sec):       0.02
+   Step CPU Time      (sec):       0.02
+
+Begin Equation Solve, Pass 2
+Thu May 30, 2013   12:07:09
+   Elapsed Time       (sec):       1.61
+   CPU Time           (sec):       1.12
+   Memory Usage        (kb):     575403
+   Work Dir Disk Usage (kb):      18486
+
+   Step Elapsed Time  (sec):       0.10
+   Step CPU Time      (sec):       0.16
+
+Begin Load Calculations
+Thu May 30, 2013   12:07:09
+   Elapsed Time       (sec):       1.71
+   CPU Time           (sec):       1.28
+   Memory Usage        (kb):     584355
+   Work Dir Disk Usage (kb):      18486
+
+   Step Elapsed Time  (sec):       0.01
+   Step CPU Time      (sec):       0.02
+
+Begin Post-Processing Calculations, Pass 2
+Thu May 30, 2013   12:07:10
+   Elapsed Time       (sec):       1.73
+   CPU Time           (sec):       1.30
+   Memory Usage        (kb):     584355
+   Work Dir Disk Usage (kb):      18486
+
+   Step Elapsed Time  (sec):       0.15
+   Step CPU Time      (sec):       0.11
+
+Begin Convergence Check Pass 2
+Thu May 30, 2013   12:07:10
+   Elapsed Time       (sec):       1.88
+   CPU Time           (sec):       1.40
+   Memory Usage        (kb):     584355
+   Work Dir Disk Usage (kb):      18486
+
+   Step Elapsed Time  (sec):       0.14
+   Step CPU Time      (sec):       0.11
+
+Begin Displacement and Stress Calculation
+Thu May 30, 2013   12:07:10
+   Elapsed Time       (sec):       2.02
+   CPU Time           (sec):       1.51
+   Memory Usage        (kb):     584355
+   Work Dir Disk Usage (kb):      18486
+
+   Step Elapsed Time  (sec):       0.21
+   Step CPU Time      (sec):       0.17
+
+Begin Reaction Calculation
+Thu May 30, 2013   12:07:10
+   Elapsed Time       (sec):       2.22
+   CPU Time           (sec):       1.68
+   Memory Usage        (kb):     584355
+   Work Dir Disk Usage (kb):      18486
+
+   Step Elapsed Time  (sec):       0.11
+   Step CPU Time      (sec):       0.06
+
+Begin Strain Energy Calculations
+Thu May 30, 2013   12:07:10
+   Elapsed Time       (sec):       2.33
+   CPU Time           (sec):       1.75
+   Memory Usage        (kb):     584355
+   Work Dir Disk Usage (kb):      18486
+
+   Step Elapsed Time  (sec):       0.06
+   Step CPU Time      (sec):       0.05
+
+Completed P-Loop
+Thu May 30, 2013   12:07:10
+   Elapsed Time       (sec):       2.39
+   CPU Time           (sec):       1.79
+   Memory Usage        (kb):     584355
+   Work Dir Disk Usage (kb):      18486
+
+   Step Elapsed Time  (sec):       0.13
+   Step CPU Time      (sec):       0.00
+
+Completed Analysis: tilt1
+Thu May 30, 2013   12:07:10
+   Elapsed Time       (sec):       2.52
+   CPU Time           (sec):       1.79
+   Memory Usage        (kb):     584355
+   Work Dir Disk Usage (kb):      18486

@@ -1,0 +1,199 @@
+------------------------------------------------------------
+Creo Simulate Structure Version P-10-21:spg
+Summary for Design Study "tilt4"
+Thu May 30, 2013   12:07:21
+------------------------------------------------------------
+
+Run Settings
+   Memory allocation for block solver: 512.0     
+   Output results in ASCII format.
+
+Parallel Processing Status
+   Parallel task limit for current run:           12
+   Parallel task limit for current platform:      64
+   Number of processors detected automatically:   12
+Checking the model before creating elements...
+These checks take into account the fact that AutoGEM will
+automatically create elements in volumes with material
+properties, on surfaces with shell properties, and on curves
+with beam section properties.
+   Generate elements automatically.
+Checking the model after creating elements...
+No errors were found in the model.
+Creo Simulate Structure Model Summary
+
+   Principal System of Units: millimeter Newton Second (mmNs)
+
+   Length:          mm
+   Force:           N
+   Time:            sec
+   Temperature:     C
+
+   Model Type: Three Dimensional
+
+   Points:                 56
+   Edges:                 210
+   Faces:                 249
+
+   Springs:                 0
+   Masses:                  0
+   Beams:                   0
+   Shells:                  0
+   Solids:                 96
+
+   Elements:               96
+
+------------------------------------------------------------
+
+Standard Design Study
+
+Static Analysis "tilt4":
+
+   Convergence Method: Single-Pass Adaptive
+   Plotting Grid:      4
+
+   Convergence Loop Log:                         (12:07:22)
+
+   >> Pass  1 <<
+         Calculating Element Equations           (12:07:22)
+            Total Number of Equations:    1543
+            Maximum Edge Order:              3
+         Solving Equations                       (12:07:22)
+         Post-Processing Solution                (12:07:22)
+         Checking Convergence                    (12:07:22)
+         Resource Check                          (12:07:22)
+            Elapsed Time     (sec):       0.73
+            CPU Time         (sec):       0.48
+            Memory Usage      (kb):     571365
+            Wrk Dir Dsk Usage (kb):       1059
+
+   >> Pass  2 <<
+         Calculating Element Equations           (12:07:22)
+            Total Number of Equations:    9628
+            Maximum Edge Order:              9
+         Solving Equations                       (12:07:24)
+         Post-Processing Solution                (12:07:24)
+         Checking Convergence                    (12:07:24)
+         Calculating Disp and Stress Results     (12:07:24)
+
+         RMS Stress Error Estimates:
+
+         Load Set          Stress Error  % of Max Prin Str
+         ----------------  ------------  -----------------
+         Enforced disp.     1.85e+03      25.5% of  7.26e+03
+
+         Resource Check                          (12:07:25)
+            Elapsed Time     (sec):       3.71
+            CPU Time         (sec):       3.38
+            Memory Usage      (kb):     596685
+            Wrk Dir Dsk Usage (kb):      30793
+
+   Total Mass of Model:  7.401388e-05
+
+   Total Cost of Model:  0.000000e+00
+
+   Mass Moments of Inertia about WCS Origin:
+
+     Ixx:  1.17893e-01
+     Ixy: -5.82737e-02  Iyy:  4.01921e-02
+     Ixz:  1.12640e-10  Iyz:  6.46523e-11  Izz:  1.56851e-01
+
+   Principal MMOI and Principal Axes Relative to WCS Origin:
+
+            Max Prin           Mid Prin           Min Prin
+           1.56851e-01        1.49079e-01        9.00552e-03
+
+   WCS X:  8.15716e-09        8.81678e-01        4.71851e-01
+   WCS Y: -3.52047e-09       -4.71851e-01        8.81678e-01
+   WCS Z:  1.00000e+00       -8.85313e-09       -7.45045e-10
+
+   Center of Mass Location Relative to WCS Origin:
+                  ( 1.40075e+01,  3.31203e+01, -4.39110e-09)
+
+   Mass Moments of Inertia about the Center of Mass:
+
+     Ixx:  3.67029e-02
+     Ixy: -2.39362e-02  Iyy:  2.56698e-02
+     Ixz:  1.08088e-10  Iyz:  5.38881e-11  Izz:  6.11391e-02
+
+   Principal MMOI and Principal Axes Relative to COM:
+
+            Max Prin           Mid Prin           Min Prin
+           6.11391e-02        5.57500e-02        6.62271e-03
+
+   WCS X:  8.65880e-09        7.82491e-01        6.22662e-01
+   WCS Y: -4.32402e-09       -6.22662e-01        7.82491e-01
+   WCS Z:  1.00000e+00       -9.46783e-09       -2.00800e-09
+
+   Constraint Set: CombinedConstraintSet
+                      u1_fix: TILT
+                      u3_y: TILT
+                      u5_fix: TILT
+                      u6_fix: TILT
+
+         Enforced Displacement
+
+      Resultant Load on Model:
+         in global X direction:  7.662231e-11
+         in global Y direction:  9.646338e-10
+         in global Z direction: -1.552998e-11
+
+      Measures:
+
+      max_beam_bending:   0.000000e+00
+      max_beam_tensile:   0.000000e+00
+      max_beam_torsion:   0.000000e+00
+      max_beam_total:     0.000000e+00
+      max_disp_mag:       1.355078e+00
+      max_disp_x:        -5.353330e-01
+      max_disp_y:         1.353794e+00
+      max_disp_z:         5.639859e-02
+      max_prin_mag:       7.263906e+03
+      max_rot_mag:        3.322370e-02
+      max_rot_x:          0.000000e+00
+      max_rot_y:          0.000000e+00
+      max_rot_z:          3.322370e-02
+      max_stress_prin:    7.263906e+03
+      max_stress_vm:      5.064260e+03
+      max_stress_xx:      4.830998e+03
+      max_stress_xy:      2.141575e+03
+      max_stress_xz:      1.861212e+03
+      max_stress_yy:      4.380600e+03
+      max_stress_yz:     -1.617387e+03
+      max_stress_zz:      3.045074e+03
+      min_stress_prin:   -3.312200e+03
+      strain_energy:      1.611294e+05
+      F1:                -4.035592e+04
+      F2:                -4.467813e+04
+      F3:                 3.192721e+05
+      F4:                 3.222588e+05
+      F5:                -1.159093e+05
+      F6:                -3.224219e+04
+      F7:                -1.630069e+05
+      F8:                -2.453384e+05
+
+Analysis "tilt4" Completed  (12:07:25)
+
+------------------------------------------------------------
+
+Memory and Disk Usage:
+
+   Machine Type: Windows 7 64 Service Pack 1
+   RAM Allocation for Solver (megabytes): 512.0
+
+   Total Elapsed Time (seconds): 3.87      
+   Total CPU Time     (seconds): 3.40      
+   Maximum Memory Usage (kilobytes): 596685    
+   Working Directory Disk Usage (kilobytes): 30793     
+
+   Results Directory Size (kilobytes):
+   4655 .\..\..\..\adam\t3-model\tilt-fem\tilt4
+
+   Maximum Data Base Working File Sizes (kilobytes):
+   27648 .\tilt4.tmp\kel1.bas
+   3072 .\tilt4.tmp\oel1.bas
+
+------------------------------------------------------------
+Run Completed
+Thu May 30, 2013   12:07:25
+------------------------------------------------------------

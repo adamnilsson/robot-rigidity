@@ -1,0 +1,33 @@
+
+Analysis:tilt1, Loadset:Prescribed Temperature
+max_beam_bending, 0
+max_beam_tensile, 0
+max_beam_torsion, 0
+max_beam_total, 0
+max_disp_mag, 1.24172, 1.28626, -9.91693, -5
+max_disp_x, 1.24142, 0.922263, -9.95313, 2.49994
+max_disp_y, -0.593501, -28.2843, 14.1421, -5
+max_disp_z, 0.0359255, 19.4881, 12.8662, 5
+max_prin_mag, 7461.74, -19.8485, 22.5779, 0
+max_rot_mag, 0.0269787, 0, 0, 0
+max_rot_x, 0, 21.2132, 63.6396, 0
+max_rot_y, 0, 21.2132, 63.6396, 0
+max_rot_z, 0.0269787, 0, 0, 0
+max_stress_prin, 7461.74, -19.8485, 22.5779, 0
+max_stress_vm, 4785.37, -19.8485, 22.5779, -5
+max_stress_xx, 2856.68, -19.8485, 22.5779, 0
+max_stress_xy, 1651.21, -19.8485, 22.5779, -5
+max_stress_xz, 642.151, -4.63155, 1.88665, 5
+max_stress_yy, 6893.01, -19.8485, 22.5779, 0
+max_stress_yz, -854.04, -19.8485, 22.5779, -5
+max_stress_zz, 3208.67, -19.8485, 22.5779, 2.5
+min_stress_prin, -2200.29, -6.98632, 32.016, 5
+strain_energy, 120660
+F1, 241320
+F2, -149883
+F3, -11912.2
+F4, -40270.3
+F5, -211639
+F6, 290888
+F7, -17769.1
+F8, -100734

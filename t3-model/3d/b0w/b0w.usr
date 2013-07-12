@@ -1,0 +1,19 @@
+#PID -144
+#ErrMsgId 89
+#ErrMsgStr
+Starting analysis b0w
+#ErrMsgEnd
+#ErrMsgId 90
+#ErrMsgStr
+Starting solution pass 1 - b0w
+#ErrMsgEnd
+#ErrMsgId 90
+#ErrMsgStr
+Starting solution pass 2 - b0w
+#ErrMsgEnd
+#ErrMsgId 95
+#ErrMsgId 91
+#ErrMsgStr
+Analysis b0w completed
+#ErrMsgEnd
+#ErrMsgId 92

@@ -1,0 +1,202 @@
+------------------------------------------------------------
+Creo Simulate Structure Version P-10-21:spg
+Summary for Design Study "b0x"
+Thu May 30, 2013   15:09:06
+------------------------------------------------------------
+
+Run Settings
+   Memory allocation for block solver: 512.0     
+
+Parallel Processing Status
+   Parallel task limit for current run:           12
+   Parallel task limit for current platform:      64
+   Number of processors detected automatically:   12
+Checking the model before creating elements...
+These checks take into account the fact that AutoGEM will
+automatically create elements in volumes with material
+properties, on surfaces with shell properties, and on curves
+with beam section properties.
+   Generate elements automatically.
+Checking the model after creating elements...
+No errors were found in the model.
+Creo Simulate Structure Model Summary
+
+   Principal System of Units: millimeter Newton Second (mmNs)
+
+   Length:          mm
+   Force:           N
+   Time:            sec
+   Temperature:     C
+
+   Model Type: Three Dimensional
+
+   Points:                117
+   Edges:                 543
+   Faces:                 748
+
+   Springs:                 0
+   Masses:                  0
+   Beams:                   0
+   Shells:                  0
+   Solids:                321
+
+   Elements:              321
+
+------------------------------------------------------------
+
+Standard Design Study
+
+Static Analysis "b0x":
+
+   Convergence Method: Single-Pass Adaptive
+   Plotting Grid:      4
+
+   Convergence Loop Log:                         (15:09:07)
+
+   >> Pass  1 <<
+         Calculating Element Equations           (15:09:07)
+            Total Number of Equations:    5496
+            Maximum Edge Order:              3
+         Solving Equations                       (15:09:07)
+         Post-Processing Solution                (15:09:07)
+         Checking Convergence                    (15:09:07)
+         Resource Check                          (15:09:07)
+            Elapsed Time     (sec):       1.02
+            CPU Time         (sec):       0.75
+            Memory Usage      (kb):     612663
+            Wrk Dir Dsk Usage (kb):       6166
+
+   >> Pass  2 <<
+         Calculating Element Equations           (15:09:07)
+            Total Number of Equations:   17037
+            Maximum Edge Order:              8
+         Solving Equations                       (15:09:08)
+         Post-Processing Solution                (15:09:09)
+         Checking Convergence                    (15:09:09)
+         Calculating Disp and Stress Results     (15:09:09)
+
+         RMS Stress Error Estimates:
+
+         Load Set          Stress Error  % of Max Prin Str
+         ----------------  ------------  -----------------
+         Enforced disp.     3.87e+02      19.4% of  2.00e+03
+
+         Resource Check                          (15:09:10)
+            Elapsed Time     (sec):       3.52
+            CPU Time         (sec):       3.48
+            Memory Usage      (kb):     633865
+            Wrk Dir Dsk Usage (kb):      33843
+
+   Total Mass of Model:  5.496612e-03
+
+   Total Cost of Model:  0.000000e+00
+
+   Mass Moments of Inertia about WCS Origin:
+
+     Ixx:  2.18729e+01
+     Ixy:  1.27064e-01  Iyy:  2.17554e+01
+     Ixz:  4.57261e-06  Iyz: -1.77905e-01  Izz:  2.14562e+01
+
+   Principal MMOI and Principal Axes Relative to WCS Origin:
+
+            Max Prin           Mid Prin           Min Prin
+           2.19748e+01        2.17424e+01        2.13674e+01
+
+   WCS X:  7.62572e-01       -6.37198e-01       -1.11635e-01
+   WCS Y:  6.11900e-01        6.54494e-01        4.44091e-01
+   WCS Z: -2.09909e-01       -4.06961e-01        8.89000e-01
+
+   Center of Mass Location Relative to WCS Origin:
+                  (-2.97679e-01,  3.69716e+01,  5.25216e-01)
+
+   Mass Moments of Inertia about the Center of Mass:
+
+     Ixx:  1.43580e+01
+     Ixy:  6.65696e-02  Iyy:  2.17534e+01
+     Ixz: -8.54800e-04  Iyz: -7.11716e-02  Izz:  1.39424e+01
+
+   Principal MMOI and Principal Axes Relative to COM:
+
+            Max Prin           Mid Prin           Min Prin
+           2.17547e+01        1.43574e+01        1.39418e+01
+
+   WCS X:  9.00028e-03        9.99959e-01        5.97273e-04
+   WCS Y:  9.99918e-01       -9.00535e-03        9.10549e-03
+   WCS Z: -9.11050e-03       -5.15272e-04        9.99958e-01
+
+   Constraint Set: CombinedConstraintSet
+                      n1_x: EE3D
+                      n2_fix: EE3D
+
+         Enforced Displacement
+
+      Resultant Load on Model:
+         in global X direction: -7.749300e-09
+         in global Y direction: -7.037865e-09
+         in global Z direction: -7.219714e-10
+
+      Measures:
+
+      max_beam_bending:   0.000000e+00
+      max_beam_tensile:   0.000000e+00
+      max_beam_torsion:   0.000000e+00
+      max_beam_total:     0.000000e+00
+      max_disp_mag:       1.296379e+00
+      max_disp_x:         1.296206e+00
+      max_disp_y:         5.385427e-01
+      max_disp_z:         4.001720e-01
+      max_prin_mag:      -1.996838e+03
+      max_rot_mag:        1.301058e-02
+      max_rot_x:          3.802207e-05
+      max_rot_y:          8.378789e-03
+      max_rot_z:          9.953376e-03
+      max_stress_prin:    1.716413e+03
+      max_stress_vm:      1.791277e+03
+      max_stress_xx*:     1.107227e+03
+      max_stress_xy:     -6.211118e+02
+      max_stress_xz:      6.462174e+02
+      max_stress_yy:      1.329832e+03
+      max_stress_yz:      7.600939e+02
+      max_stress_zz:     -1.238844e+03
+      min_stress_prin:   -1.996838e+03
+      strain_energy:      2.806129e+05
+      F1u:               -8.733033e+04
+      F1v:               -4.166889e+07
+      F1w:               -4.223012e+07
+      F1x:                5.612258e+05
+      F1y:                2.027706e+03
+      F1z:               -3.161353e+03
+      F2x:               -5.612258e+05
+      F2y:               -2.027706e+03
+      F2z:                3.161353e+03
+
+   ** Warning: The measures marked by an asterisk (*) were evaluated 
+   at (or close to) results singularities. The values of these  
+   measures may be inaccurate, and you must use engineering judgment 
+   when interpreting them.
+
+Analysis "b0x" Completed  (15:09:10)
+
+------------------------------------------------------------
+
+Memory and Disk Usage:
+
+   Machine Type: Windows 7 64 Service Pack 1
+   RAM Allocation for Solver (megabytes): 512.0
+
+   Total Elapsed Time (seconds): 3.64      
+   Total CPU Time     (seconds): 3.51      
+   Maximum Memory Usage (kilobytes): 633865    
+   Working Directory Disk Usage (kilobytes): 33843     
+
+   Results Directory Size (kilobytes):
+   4375 .\..\..\..\adam\t3-model\3d\b0x
+
+   Maximum Data Base Working File Sizes (kilobytes):
+   30720 .\b0x.tmp\kel1.bas
+   3072 .\b0x.tmp\oel1.bas
+
+------------------------------------------------------------
+Run Completed
+Thu May 30, 2013   15:09:10
+------------------------------------------------------------

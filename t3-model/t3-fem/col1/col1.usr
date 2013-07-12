@@ -1,0 +1,18 @@
+#PID -1220
+#ErrMsgId 89
+#ErrMsgStr
+Starting analysis col1
+#ErrMsgEnd
+#ErrMsgId 90
+#ErrMsgStr
+Starting solution pass 1 - col1
+#ErrMsgEnd
+#ErrMsgId 90
+#ErrMsgStr
+Starting solution pass 2 - col1
+#ErrMsgEnd
+#ErrMsgId 91
+#ErrMsgStr
+Analysis col1 completed
+#ErrMsgEnd
+#ErrMsgId 92
